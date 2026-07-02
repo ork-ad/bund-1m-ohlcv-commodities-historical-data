@@ -28,7 +28,7 @@
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `1m` sample updated in sync
 
-> **Sample on GitHub** · `BUND_1m.csv` (104,558 rows, `2025-12-29` → `2026-06-27`). **Full archive on [ork.ad](https://ork.ad/)** — **2,718,969** `1m` rows (~138.18 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2012-08-20` → `2026-06-27`.
+> **Sample on GitHub** · `BUND_1m.csv` (104,558 rows, `2025-12-29` → `2026-06-27`). **Full archive on [ork.ad](https://ork.ad/)** — **2,718,969** `1m` rows (~148.55 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2012-08-20` → `2026-06-27`.
 
 ## Download sample
 
@@ -45,7 +45,7 @@ Interactive chart & stats: **[https://ork-ad.github.io/bund-1m-ohlcv-commodities
 | Instrument | Euro Bund · Commodities | Euro Bund · Commodities |
 | Timeframes | `1m` only (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
 | 1m rows | 104,558 | **2,718,969** |
-| Size | 5.58 MB | ~138.18 MB |
+| Size | 5.58 MB | ~148.55 MB |
 | Period | `2025-12-29` → `2026-06-27` | `2012-08-20` → `2026-06-27` |
 | File | `BUND_1m.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
