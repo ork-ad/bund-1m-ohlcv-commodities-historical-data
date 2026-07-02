@@ -150,4 +150,4 @@ The complete **BUND** archive on **[ork.ad](https://ork.ad/)** includes **13 OHL
 **[→ Get the full BUND dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · BUND 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-01 UTC*
+*GetData · BUND 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-02 UTC*
