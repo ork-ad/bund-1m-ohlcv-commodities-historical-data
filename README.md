@@ -28,7 +28,7 @@
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `1m` sample updated in sync
 
-> **Sample on GitHub** · `BUND_1m.csv` (104,558 rows, `2025-12-29` → `2026-06-27`). **Full archive on [ork.ad](https://ork.ad/)** — **2,718,969** `1m` rows (~148.55 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2012-08-20` → `2026-06-27`.
+> **Sample on GitHub** · `BUND_1m.csv` (105,410 rows, `2026-01-05` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **2,718,969** `1m` rows (~148.55 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2012-08-20` → `2026-06-27`.
 
 ## Download sample
 
@@ -44,9 +44,9 @@ Interactive chart & stats: **[https://ork-ad.github.io/bund-1m-ohlcv-commodities
 |---|--:|---|
 | Instrument | Euro Bund · Commodities | Euro Bund · Commodities |
 | Timeframes | `1m` only (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 1m rows | 104,558 | **2,718,969** |
-| Size | 5.58 MB | ~148.55 MB |
-| Period | `2025-12-29` → `2026-06-27` | `2012-08-20` → `2026-06-27` |
+| 1m rows | 105,410 | **2,718,969** |
+| Size | 6.02 MB | ~148.55 MB |
+| Period | `2026-01-05` → `2026-07-02` | `2012-08-20` → `2026-06-27` |
 | File | `BUND_1m.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`BUND_1m.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2025-12-29T07:01:00Z | 127.423 | 127.481 | 127.408 | 127.481 | 25 |
-| 2025-12-29T07:02:00Z | 127.481 | 127.483 | 127.437 | 127.448 | 26 |
-| 2025-12-29T07:03:00Z | 127.448 | 127.476 | 127.446 | 127.476 | 9 |
-| 2025-12-29T07:04:00Z | 127.476 | 127.476 | 127.447 | 127.463 | 14 |
-| 2025-12-29T07:05:00Z | 127.463 | 127.477 | 127.453 | 127.473 | 12 |
+| 2026-01-05T07:01:00Z | 127.0103 | 127.1733 | 127.0103 | 127.1733 | 16 |
+| 2026-01-05T07:02:00Z | 127.1733 | 127.1903 | 127.1483 | 127.1483 | 10 |
+| 2026-01-05T07:03:00Z | 127.1483 | 127.1653 | 127.1483 | 127.1593 | 11 |
+| 2026-01-05T07:04:00Z | 127.1593 | 127.1603 | 127.1483 | 127.1543 | 7 |
+| 2026-01-05T07:05:00Z | 127.1543 | 127.1893 | 127.1533 | 127.1833 | 9 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-06-26T19:56:00Z | 127.378 | 127.378 | 127.376 | 127.378 | 4.00 |
-| 2026-06-26T19:57:00Z | 127.378 | 127.378 | 127.376 | 127.376 | 5.00 |
-| 2026-06-26T19:58:00Z | 127.376 | 127.378 | 127.376 | 127.378 | 4.00 |
-| 2026-06-26T19:59:00Z | 127.378 | 127.387 | 127.377 | 127.387 | 4.00 |
+| 2026-07-02T19:56:00Z | 126.786 | 126.788 | 126.786 | 126.788 | 4.00 |
+| 2026-07-02T19:57:00Z | 126.788 | 126.788 | 126.786 | 126.788 | 4.00 |
+| 2026-07-02T19:58:00Z | 126.788 | 126.788 | 126.786 | 126.786 | 4.00 |
+| 2026-07-02T19:59:00Z | 126.786 | 126.798 | 126.776 | 126.793 | 22.00 |
 
 ## Schema
 
@@ -150,4 +150,4 @@ The complete **BUND** archive on **[ork.ad](https://ork.ad/)** includes **13 OHL
 **[→ Get the full BUND dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · BUND 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-02 UTC*
+*GetData · BUND 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-03 UTC*
