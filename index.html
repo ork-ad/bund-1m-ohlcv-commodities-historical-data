@@ -652,6 +652,7 @@
           },
           textColor: CHART.textColor,
           fontFamily: "'Clash Display', -apple-system, sans-serif",
+          attributionLogo: false,
         },
         grid: { vertLines: { color: CHART.gridVert }, horzLines: { color: CHART.gridHorz } },
         rightPriceScale: { borderColor: CHART.scaleBorder, textColor: CHART.textColor },
@@ -706,35 +707,33 @@
       const c = document.getElementById('hC');
       const v = document.getElementById('hV');
       const t = document.getElementById('hT');
-      if (!bar) {
-        [o,h,l,c,v,t].forEach(el => el.textContent = '—');
+      const data = bar || (BARS.length ? BARS[BARS.length - 1] : null);
+      if (!data) {
+        [o, h, l, c, v, t].forEach(el => el.textContent = '—');
         c.className = '';
         return;
       }
-      const raw = BARS.find(b => b.time === bar.time) || {};
-      o.textContent = fmt(bar.open);
-      h.textContent = fmt(bar.high);
-      l.textContent = fmt(bar.low);
-      c.textContent = fmt(bar.close);
-      c.className = bar.close >= bar.open ? 'up' : 'down';
+      const raw = BARS.find(b => b.time === data.time) || data;
+      o.textContent = fmt(data.open);
+      h.textContent = fmt(data.high);
+      l.textContent = fmt(data.low);
+      c.textContent = fmt(data.close);
+      c.className = data.close >= data.open ? 'up' : 'down';
       v.textContent = fmtVol(raw.volume);
-      const d = new Date(bar.time * 1000);
+      const d = new Date(data.time * 1000);
       t.textContent = d.toISOString().slice(0, 16).replace('T', ' ');
     }
 
     mainChart.subscribeCrosshairMove(param => {
-      if (!param.time) { setHover(null); return; }
+      if (!param.time) {
+        setHover(null);
+        return;
+      }
       const bar = param.seriesData.get(candles);
-      if (bar) setHover(bar);
+      setHover(bar || null);
     });
 
-    if (BARS.length) setHover({
-      time: BARS[BARS.length - 1].time,
-      open: BARS[BARS.length - 1].open,
-      high: BARS[BARS.length - 1].high,
-      low: BARS[BARS.length - 1].low,
-      close: BARS[BARS.length - 1].close,
-    });
+    setHover(null);
 
     mainChart.timeScale().fitContent();
     volChart.timeScale().fitContent();
